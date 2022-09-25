@@ -82,12 +82,24 @@ header .navbar a:hover{
     color:var(--pink);
 }
 
-header .icons a{
+.cart-btn{
     font-size: 2.5rem;
     color:rgb(137, 221, 20);
     margin-left: 1.5rem;
 }
-
+.report-btn {
+    background-color: #0f7b13; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
 header .icons a:hover{
     color:var(--pink);
 }
@@ -363,7 +375,7 @@ header .fa-bars{
     margin-top: 1rem;
  }
  
- .products-preview .preview .buttons a{
+ .products-preview .preview .buttons button{
     flex:1 1 16rem;
     padding:1rem;
     font-size: 1.8rem;
@@ -371,16 +383,16 @@ header .fa-bars{
     border:.1rem solid #444;
  }
  
- .products-preview .preview .buttons a.cart{
+ .products-preview .preview .buttons button.cart{
     background: #444;
     color:#fff;
  }
  
- .products-preview .preview .buttons a.cart:hover{
+ .products-preview .preview .buttons button.cart:hover{
     background: #111;
  }
  
- .products-preview .preview .buttons a.buy:hover{
+ .products-preview .preview .buttons button.buy:hover{
     background: #444;
     color:#fff;
  }
